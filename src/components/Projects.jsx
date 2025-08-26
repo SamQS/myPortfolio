@@ -48,18 +48,26 @@ export const Projects = () => {
             transition={{ duration: 0.8, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            {/* Imagen */}
             <img
               src={work.w_img}
               alt={work.w_name}
               className="w-full h-64 object-cover"
             />
-
-            {/* Contenido */}
+            
+            
             <div className="p-4 w-full flex flex-col items-left gap-4">
               <h3 className="text-white text-xl font-semibold mb-2">
                 {work.w_name}
               </h3>
+              <div className="tools flex flex-wrap gap-4 ">
+                {work.w_tools?.map((tool, index) => (
+                  <div key={index} className="flex items-center gap-2 bg-[#2a2a2a] px-2 py-1 rounded">
+                    <img src={tool.img} alt={tool.name} className="w-6 h-6" />
+                    <span className="text-white text-sm">{tool.name}</span>
+                  </div>
+                ))}
+              </div>
+
 
               <div className="flex gap-3">
                 <a

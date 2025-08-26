@@ -16,30 +16,30 @@ export function Home() {
     });
   }, []);
 
-  const options = useMemo(
-    () => ({
-      background: { color: "#161513" },
-      particles: {
-        number: { value: 90 },
-        size: { value: 3 },
-        move: { enable: true, speed: 2 },
-        color: { value: "#33FFA9" },
-        links: { enable: true, color: "#33FFA9" },
+  const options = useMemo(() => {
+  const isMobile = window.innerWidth < 768; // Ajusta el breakpoint a tu gusto
+  return {
+    background: { color: "#161513" },
+    particles: {
+      number: { value: isMobile ? 25 : 110 }, // menos partículas en mobile
+      size: { value: 3 },
+      move: { enable: true, speed: 2 },
+      color: { value: "#33FFA9" },
+      links: { enable: true, color: "#33FFA9" },
+    },
+    interactivity: {
+      events: {
+        onHover: { enable: true, mode: "repulse" },
+        onClick: { enable: true, mode: "push" },
       },
-      interactivity: {
-        events: {
-          onHover: { enable: true, mode: "repulse" },
-          onClick: { enable: true, mode: "push" },
-        },
-        modes: {
-          repulse: { distance: 100, duration: 0.4 },
-          push: { quantity: 4 },
-        },
+      modes: {
+        repulse: { distance: 100, duration: 0.4 },
+        push: { quantity: 4 },
       },
-      detectRetina: true,
-    }),
-    []
-  );
+    },
+    detectRetina: true,
+  };
+}, []);
 
   return (
     <div className="relative w-full min-h-screen bg-[#161513] h-screen">

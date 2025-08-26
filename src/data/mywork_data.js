@@ -5,10 +5,18 @@ import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
 
+import react from '../assets/react.svg'
+import css from '../assets/css.svg'
+
+
 const mywork_data = [
     {
         w_no:1,
         w_name:"Web design",
+        w_tools: [
+            { img: react, name: "React" },
+            { img: css, name: "CSS" }
+        ],
         w_img:project1_img
     },
     {
@@ -29,6 +37,7 @@ const mywork_data = [
     {
         w_no:5,
         w_name:"Web design",
+        
         w_img:project5_img
     },
     {
