@@ -21,7 +21,7 @@ export function Home() {
   return {
     background: { color: "#161513" },
     particles: {
-      number: { value: isMobile ? 25 : 110 }, // menos partículas en mobile
+      number: { value: isMobile ? 25 : 118 }, // menos partículas en mobile
       size: { value: 3 },
       move: { enable: true, speed: 2 },
       color: { value: "#33FFA9" },

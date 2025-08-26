@@ -11,8 +11,9 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="pt-[300px] sm:pt-[200px] -mt-[80px] flex flex-col lg:flex-row items-center justify-center gap-[80px] mb-[200px] px-4 sm:px-8"
+      className="pt-[300px] sm:pt-[300px] -mt-[80px] flex flex-col lg:flex-row items-center justify-center gap-[80px] mb-[200px] px-4 sm:px-8"
     >
+
       {/* Texto con animación */}
       <motion.div
         className="flex flex-col items-center lg:items-start gap-[40px] max-w-[600px] text-center lg:text-right"
