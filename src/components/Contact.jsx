@@ -80,9 +80,7 @@ export const Contact = () => {
             Talk to Me
           </h1>
           <p className="max-w-[550px] text-[15px] leading-[25px]">
-            I'm currently available to take on new projects, so feel free to
-            send me a message about anything that you want me to work on. You
-            can contact anytime.
+            I’m currently open to new job opportunities. If you’re looking for someone with experience in development, feel free to reach out. I’m always open to connect and discuss opportunities.
           </p>
 
           <div className="flex flex-col gap-[30px] text-[20px] font-[500]">

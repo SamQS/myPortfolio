@@ -103,9 +103,9 @@ export const Footer = () => {
 
       <hr className="border-gray-600" />
 
-      {/* BOTTOM SECTION */}
+
       <div className="flex flex-col md:flex-row justify-between items-center gap-[15px] text-sm mb-5">
-        <p>© 2023 Alex Bennett. All rights reserved.</p>
+        <p>© 2025 Samuel Quenta. All rights reserved.</p>
         <div className="flex gap-[20px]">
           <a href="#" className="hover:text-[#33FFA9]">Privacy Policy</a>
           <a href="#" className="hover:text-[#33FFA9]">Terms of Service</a>
