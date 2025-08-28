@@ -109,7 +109,7 @@ export const Footer = () => {
         <div className="flex gap-[20px]">
           <a href="#" className="hover:text-[#33FFA9]">Privacy Policy</a>
           <a href="#" className="hover:text-[#33FFA9]">Terms of Service</a>
-          <a href="#" className="hover:text-[#33FFA9]">Contact</a>
+
         </div>
       </div>
     </footer>

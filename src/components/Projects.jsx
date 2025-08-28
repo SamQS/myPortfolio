@@ -42,7 +42,7 @@ export const Projects = () => {
         {projectsToShow.map((work, index) => (
           <motion.div
             key={index}
-            className="bg-[#1f1f1f] rounded-[12px] overflow-hidden shadow-lg flex flex-col items-center transition-transform transform hover:scale-105"
+            className="bg-[#1f1f1f] rounded-[12px] overflow-hidden shadow-lg flex flex-col items-center transition-transform transform hover:scale-105 hover:border-4 hover:border-[#33FFA9] hover:rounded-[8px]"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -67,17 +67,25 @@ export const Projects = () => {
                   </div>
                 ))}
               </div>
-
-
-              <div className="flex gap-3">
-                <a
-                  href={work.demo_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 bg-[#33FFA9] text-black rounded-lg font-medium hover:bg-[#28cc88] transition"
-                >
-                  Ver Demo
-                </a>
+              <div className="flex gap-5">
+                {work.work_demo_link ? (
+                  <a
+                    href={work.demo_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-[#33FFA9] text-black rounded-lg font-medium hover:bg-[#28cc88] transition"
+                  >
+                    Ver Demo
+                  </a>
+                ) : (
+                  <button
+                    disabled
+                    className="px-4 py-2 bg-gray-500 text-gray-300 rounded-lg font-medium cursor-not-allowed"
+                  >
+                    Ver Demo
+                  </button>
+                )}
+                
                 <a
                   href={work.code_link}
                   target="_blank"

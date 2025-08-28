@@ -39,7 +39,7 @@ export function Navbar() {
           </li>
         ))}
       </ul>
-      <a className="hidden lg:inline-block px-[20px] py-[15px] rounded-[20px] font-[600] bg-[linear-gradient(135deg,#166E48_5%,#33FFA9_100%)] cursor-pointer transition duration-500 hover:scale-110">
+      <a href="/CV_SamuelQuenta.pdf" download className="hidden lg:inline-block px-[20px] py-[15px] rounded-[20px] font-[600] bg-[linear-gradient(135deg,#166E48_5%,#33FFA9_100%)] cursor-pointer transition duration-500 hover:scale-110">
         Download my CV
       </a>
       <div className={`fixed top-0 right-0 h-screen w-[70%] bg-[#161513] shadow-lg flex flex-col items-center justify-center gap-10 text-[22px] font-[500] transition-transform duration-500 md:hidden ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
