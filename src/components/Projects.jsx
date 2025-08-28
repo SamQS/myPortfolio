@@ -70,7 +70,7 @@ export const Projects = () => {
               <div className="flex gap-5">
                 {work.work_demo_link ? (
                   <a
-                    href={work.demo_link}
+                    href={work.web_link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 bg-[#33FFA9] text-black rounded-lg font-medium hover:bg-[#28cc88] transition"
@@ -85,15 +85,31 @@ export const Projects = () => {
                     Ver Demo
                   </button>
                 )}
-                
-                <a
-                  href={work.code_link}
+
+
+
+                {work.web_api ? (
+                  <a
+                  href={work.githubApi_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 border border-[#33FFA9] text-[#33FFA9] rounded-lg font-medium hover:bg-[#33FFA9] hover:text-black transition"
                 >
                   <img src={github} alt="" className="w-[25px] h-auto" />
                 </a>
+                ):(
+                  null
+                )}
+                
+                <a
+                  href={work.github_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 border border-[#33FFA9] text-[#33FFA9] rounded-lg font-medium hover:bg-[#33FFA9] hover:text-black transition"
+                >
+                  <img src={github} alt="" className="w-[25px] h-auto" />
+                </a>
+                
               </div>
             </div>
           </motion.div>

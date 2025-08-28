@@ -43,7 +43,10 @@ const mywork_data = [
 
         ],
         w_img:portfolio,
-        work_demo_link : true
+        work_demo_link : true,
+        web_link : "https://samqs.github.io/myPortfolio/",
+        github_link : "https://github.com/SamQS/myPortfolio",
+
     },
     {
         w_no:2,
@@ -56,7 +59,10 @@ const mywork_data = [
             { img: djangoRest, name: "Django Rest Framework" },
         ],
         w_img:mobile,
-        work_demo_link : false
+        work_demo_link : false,
+        github_link : "https://github.com/SamQS/ProyectoPsicologicoEduUnity",
+        githubApi_link : "https://github.com/SamQS/ProyectoPsicologicoEdu",
+        web_api: true
     },
     {
         w_no:3,
@@ -70,7 +76,9 @@ const mywork_data = [
             { img: vite, name: "Vite" }
         ],
         w_img:pelicula,
-        work_demo_link : true
+        work_demo_link : true,
+        web_link : "https://samqs.github.io/peliculas-project/",
+        github_link : "https://github.com/SamQS/peliculas-project"
     },
     {
         w_no:4,
@@ -83,7 +91,8 @@ const mywork_data = [
             { img: vite, name: "Vite" }
         ],
         w_img:pokedex,
-        work_demo_link : false
+        work_demo_link : false,
+        github_link : "https://github.com/SamQS/pokedex-react"
     },
     {
         w_no:5,
@@ -95,7 +104,8 @@ const mywork_data = [
             { img: javascript, name: "Javascript" },
         ],
         w_img:branding,
-        work_demo_link : false
+        work_demo_link : false,
+        github_link : "https://github.com/SamQS/Branding"
     },
     {
         w_no:6,
@@ -107,7 +117,9 @@ const mywork_data = [
             { img: javascript, name: "Javascript" },
         ],
         w_img:minsa,
-        work_demo_link : false
+        work_demo_link : false,
+        web_link : "https://samqs.github.io/myPortfolio/",
+        github_link : "https://github.com/SamQS/minsapp"
     },
     {
         w_no:7,
@@ -120,7 +132,8 @@ const mywork_data = [
             { img: javascript, name: "Javascript" },
         ],
         w_img:portfolioPy,
-        work_demo_link : false
+        work_demo_link : false,
+        github_link : "https://github.com/SamQS/web_portafolio"
     },
      {
         w_no:7,
@@ -132,7 +145,8 @@ const mywork_data = [
             { img: javascript, name: "Javascript" },
         ],
         w_img:urban,
-        work_demo_link : false
+        work_demo_link : false,
+        github_link : "https://github.com/SamQS/crmUrbano"
     },
 
 ]

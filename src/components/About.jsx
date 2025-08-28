@@ -47,9 +47,7 @@ export const About = () => {
           <img src={profile} alt="Profile" className="w-full h-auto rounded-[20px]" />
         </motion.div>
 
-        {/* Texto + Skills + Highlights */}
-        <div className="flex flex-col gap-[40px] w-full">
-          {/* Texto */}
+        <div className="flex flex-col gap-[50px] w-full">
           <motion.div
             className="text-[16px] sm:text-[18px] font-[400] leading-relaxed"
             initial={{ opacity: 0, y: 50 }}
@@ -57,7 +55,7 @@ export const About = () => {
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <p>
+            <p className="text-justify ">
               I have a Bachelor’s degree in Computer and Systems Engineering from Universidad San Martín de Porres, 
               with knowledge in programming and software development and a strong interest in frontend development. 
               I have experience with JavaScript, React.js, HTML, CSS, Tailwind CSS, UI/UX, Python, Django, REST API, 
