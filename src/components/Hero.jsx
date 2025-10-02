@@ -52,7 +52,7 @@ export function Hero() {
           transition={{ delay: 1, duration: 0.8 }}
         >
           <motion.a
-            href="/CV_SamuelQuenta.pdf"
+            href="./CV_SamuelQuenta.pdf"
             download
             whileHover={{ scale: 1.1 }}
             animate={{ scale: [1, 1.05, 1] }}
