@@ -13,6 +13,7 @@ import branding from '../assets/branding.png'
 import minsa from '../assets/minsa.png'
 import portfolioPy from '../assets/portfolioPy.png'
 import urban from '../assets/urban.png'
+import cooperativa from '../assets/cooperativa.png'
 
 
 
@@ -66,6 +67,27 @@ const mywork_data = [
     },
     {
         w_no:3,
+        w_name:"Sitio web institucional para Cooperativa de Ahorro y Crédito",
+        w_tools: [
+            { img: python, name: "Python" },
+            { img: django, name: "Django" },
+            { img: djangoRest, name: "Django Rest Framework" },
+            { img: react, name: "React" },
+            { img: css, name: "Css" },
+            { img: html, name: "Html" },
+            { img: tailwind, name: "Tailwind" },
+            { img: javascript, name: "Javascript" }
+
+        ],
+        w_img:cooperativa,
+        work_demo_link : true,
+        github_link : "https://github.com/SamQS/cooperativa_project_front",
+        web_link : "https://www.coopaccecomsap.com/",
+        githubApi_link : "https://github.com/SamQS/cooperativa_project_back",
+        web_api: true
+    },
+    {
+        w_no:4,
         w_name:"Movie App",
         w_tools: [
             { img: react, name: "React" },
@@ -81,7 +103,7 @@ const mywork_data = [
         github_link : "https://github.com/SamQS/peliculas-project"
     },
     {
-        w_no:4,
+        w_no:5,
         w_name:"Pokedex App",
         w_tools: [
             { img: react, name: "React" },
@@ -95,7 +117,7 @@ const mywork_data = [
         github_link : "https://github.com/SamQS/pokedex-react"
     },
     {
-        w_no:5,
+        w_no:6,
         w_name:"Branding Website",
         w_tools: [
             { img: cshare, name: "C#" },
@@ -108,7 +130,7 @@ const mywork_data = [
         github_link : "https://github.com/SamQS/Branding"
     },
     {
-        w_no:6,
+        w_no:7,
         w_name:"Minsa Website",
         w_tools: [
             { img: java, name: "Java" },
@@ -122,7 +144,7 @@ const mywork_data = [
         github_link : "https://github.com/SamQS/minsapp"
     },
     {
-        w_no:7,
+        w_no:8,
         w_name:"Portfolio - Python",
         w_tools: [
             { img: python, name: "Python" },
@@ -136,7 +158,7 @@ const mywork_data = [
         github_link : "https://github.com/SamQS/web_portafolio"
     },
      {
-        w_no:7,
+        w_no:9,
         w_name:"Inmobiliaria Urban Website",
         w_tools: [
             { img: cshare, name: "C#" },
